@@ -117,3 +117,5 @@ def winner(board)
   end
   return board[won?(board)[0]]
 end
+
+def play()
