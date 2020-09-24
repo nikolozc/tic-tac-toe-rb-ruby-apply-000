@@ -34,17 +34,6 @@ def turn(board)
   end
 end
 
-def play(board)
-  counter = 0
-  while(counter < 9)
-    turn(board)
-    counter+=1
-  end
-end
-
-
-
-
 def turn_count(board)
   counter = 0
   board.each do |element|
@@ -119,4 +108,12 @@ def winner(board)
 end
 
 def play(board)
+  while(!over?(board)) do
+    
+  end
+  if(draw?(board))
+    puts "It is a draw"
+  else
+    puts "The winner is : #{winner(board}"
+  end
 end
