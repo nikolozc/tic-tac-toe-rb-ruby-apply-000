@@ -109,7 +109,7 @@ end
 
 def play(board)
   while(!over?(board)) do
-    
+    turn(board)
   end
   if(draw?(board))
     puts "It is a draw"
