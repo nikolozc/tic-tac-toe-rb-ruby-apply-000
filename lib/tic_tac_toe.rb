@@ -114,6 +114,6 @@ def play(board)
   if(draw?(board))
     puts "It is a draw"
   else
-    puts "The winner is : #{winner(board}"
+    puts "The winner is : #{winner(board)}"
   end
 end
